@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Daniel Enriquez - Portfolio</title>
+	 <link rel="icon" href="img/d.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<header class="header">
+		<a href="#home" class="logo">
+			Daniel <span>Enriquez</span>
+		</a>
+
+		<i class="bx bx-menu" id="menu-icon"></i>
+
+		<nav class="navbar">
+			<a href="#home">Inicio</a>
+			<a href="#skills">Habilidades</a>
+			<a href="#projects">Proyectos</a>
+			<a href="#experience">Experiencia</a>
+			<a href="#certificates">Certificados</a>
+		</nav>
+
+		<button class="gradient-btn" onclick="redirectToEmail()">Contáctame</button>
+
+	</header>
+
+	<section class="home" id="home">
+		<div class="home-img">
+			<img src="img/yo.jpeg" alt="programador desarrollador">
+		</div>
+		<div class="home-content">
+			<h1>Soy <span>Daniel</span></h1>
+			<h3 class="text-animation">
+				Y soy <span></span>
+			</h3>
+			<p class="presentacion">¡Hola! Soy Daniel, y soy un apasionado de la tecnología. Me encanta crear soluciones eficientes y funcionales, y aunque estoy comenzando mi profesión, estoy siempre dispuesto a aprender y enfrentar nuevos desafíos en proyectos innovadores y significativos.</p>
+
+			<div class="social-icons">
+				<a href="https://www.linkedin.com/in/daniel-enriquez-36203a2a8?" target="_blanck"><i class="fa-brands fa-linkedin"></i></a>
+				<a href="https://github.com/10038-rdenriquez2" target="_blanck"><i class="fa-brands fa-square-github"></i></a>
+				<a href="https://wa.me/+593980031871" target="_blanck"><i class="fa-brands fa-square-whatsapp"></i></a>
+				<a href="https://www.instagram.com/elco_gelindo/" target="_blanck"><i class="fa-brands fa-square-instagram"></i></a>
+			</div>
+
+			<a href="librerias/hoja_de_vida.pdf" target="_blanck" class="btn">Contrátame</a>
+			
+		</div>
+	</section>
+
+	<section class="services" id="skills">
+		<h2 class="heading">HABILIDADES</h2>
+		<div class="service-container">
+			<div class="service-box">
+			<div class="service-info">
+				<i class="fa-brands fa-html5"></i>
+				<h4>HTML 5</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class="fa-brands fa-css3-alt"></i>
+				<h4>CSS 3</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class="fa-brands fa-square-js"></i>
+				<h4>JavaScript</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class="fa-brands fa-bootstrap"></i>
+				<h4>Bootstrap</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class="fa-brands fa-angular"></i>
+				<h4>Angular</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class="fa-brands fa-node"></i>
+				<h4>Node JS</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class="fa-brands fa-php"></i>
+				<h4>PHP</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class='bx bxs-data'></i>
+				<h4>MySQL</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class='bx bxl-mongodb'></i>
+				<h4>MongoDB</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class="fa-brands fa-git-alt"></i>
+				<h4>Git</h4>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<section class="services">
+		<h2 class="heading">HABILIDADES EXTRA</h2>
+		<div class="service-container">
+			<div class="service-box">
+			<div class="service-info">
+				<i class="fa-solid fa-square-pen"></i>
+				<h4 class="extra_skills">Ortografía</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class="fa-solid fa-language"></i>
+				<h4 class="extra_skills">Inglés B2</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class="fa-solid fa-wand-magic-sparkles"></i>
+				<h4 class="extra_skills">Edición de imágenes/videos</h4>
+			</div>
+		</div>
+		<div class="service-box">
+			<div class="service-info">
+				<i class="fa-solid fa-people-arrows"></i>
+				<h4 class="extra_skills">Sociabilidad</h4>
+			</div>
+		</div>
+	</section>
+
+	<section class="projects" id="projects">
+		<h2 class="heading">PROYECTOS</h2>
+		<div class="projects-box">
+			<div class="projects-card">
+				<img src="img/proyecto1.jpg" alt="proyecto web">
+				<h3>Trago Loco</h3>
+				<p>Una divertida app con minijuegos de bebida, perfecta para disfrutar con amigos o familiares en reuniones y fiestas.</p>
+				<a class="btn" href="https://10038-rdenriquez2.github.io/trago_loco/" target="_blanck">Revisar proyecto</a>
+			</div>
+			<div class="projects-card">
+				<img src="img/proyecto2.jpg" alt="proyecto web">
+				<h3>PsicoWeb</h3>
+				<p>Una página web principal para la Universidad de las Fuerzas Armadas ESPE, incluyendo los requirimientos de WCAG para fácil acceso a personas con discapacidad.</p>
+				<a class="btn" href="https://10038-rdenriquez2.github.io/pagina-espe/" target="_blanck">Revisar proyecto</a>
+			</div>
+			<div class="projects-card">
+				<img src="img/proyecto3.jpg" alt="proyecto web">
+				<h3>Puzzle</h3>
+				<p>Un entretenido juego de rompecabezas desarrollado con tecnologías web, diseñado para desafiar y entretener a los jugadores.</p>
+				<a class="btn" href="https://10038-rdenriquez2.github.io/juego-memoria/" target="_blanck">Revisar proyecto</a>
+			</div>
+			<div class="projects-card">
+				<img src="img/proyecto4.jpg" alt="proyecto web">
+				<h3>E-Commerce</h3>
+				<p>Una completa plataforma de comercio electrónico, con funcionalidades de navegación de productos, carrito de compras y gestión de pagos.</p>
+			</div>
+			<div class="projects-card">
+				<img src="img/proyecto5.jpg" alt="proyecto web">
+				<h3>Sistema Óptica</h3>
+				<p>Una solución integral para la gestión de una óptica, incluyendo inventario, registro de clientes y ventas.</p>
+			</div>
+			<div class="projects-card">
+				<img src="img/proyecto6.jpg" alt="proyecto web">
+				<h3>CRUD Países</h3>
+				<p>Una aplicación que permite Crear, Leer, Actualizar y Eliminar registros de países, demostrando habilidades en el manejo de datos.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="education" id="experience">
+		<h2 class="heading">EXPERIENCIA</h2>
+		<div class="timeline-items">
+			<div class="timeline-item">
+				<div class="timeline-dot"></div>
+					<div class="timeline-data">2022</div>
+					<div class="timeline-content">
+						<h3>AGENTE DE VENTA DE BOLETOS</h3>
+						<p>Buen Plan requirió personal para ventas de boletos a conciertos, por ende mi responsabilidad se basó en:</p>
+						<br><br>
+						<div class="indications">
+							<i class="fa-regular fa-circle-check"></i>	Vender entradas de forma presencial.
+							<br>
+							<i class="fa-regular fa-circle-check"></i>  Realizar operaciones de cuentas cada final de jornada.
+							<br>
+							<i class="fa-regular fa-circle-check"></i>	Promocionar y captar la atención de la población para el servicio a vender.
+						</div>
+					</div>
+			</div>
+			<div class="timeline-item">
+				<div class="timeline-dot"></div>
+					<div class="timeline-data">2023</div>
+					<div class="timeline-content">
+						<h3>DESARROLLADOR BACKEND</h3>
+						<p>La Comunidad Parroquial de Alangasí tuvo como objetivo optimizar la información de su cementerio, por lo que obtuve las siguientes responsabilidades:</p>
+						<br><br>
+
+						<div class="indications">
+							<i class="fa-regular fa-circle-check"></i>	Realizar un sistema de información para optimizar de una forma eficaz y eficiente todos los registros del cementerio.
+							<br>
+							<i class="fa-regular fa-circle-check"></i>  Implementar interfaces gráficas en base a UX.
+							<br>
+							<i class="fa-regular fa-circle-check"></i>	Aplicar medidas de seguridad para la protección de los datos y privacidad de la información.
+						</div>	
+					</div>
+			</div>
+			<div class="timeline-item">
+				<div class="timeline-dot"></div>
+					<div class="timeline-data">2024</div>
+					<div class="timeline-content">
+						<h3>DESARROLLADOR BACKEND</h3>
+						<p>Óptica L.R Visión dio su paso a digitalizar su información, en consiguiente mis responsabilidades fueron:</p>
+						<br><br>
+
+						<div class="indications">
+							<i class="fa-regular fa-circle-check"></i>	Desarrollar un sistema de información completo, desde la lógica de la base de datos hasta el procesamiento de datos.
+							<br>
+							<i class="fa-regular fa-circle-check"></i>  Implementar informes de resportes acorde a ventas e inventario.
+							<br>
+							<i class="fa-regular fa-circle-check"></i>	Ejecutar acciones con procedimientos almacenados para un óptimo proceso de datos.
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="certificates" id="certificates">
+		<h2 class="heading">CERTIFICADOS</h2>
+		<div class="projects-box">
+			<div class="projects-card img-certificates">
+				<img src="img/certificado1.jpg" alt="proyecto web">
+				<h3>Backend</h3>
+			</div>
+			<div class="projects-card img-certificates">
+				<img src="img/certificado2.jpg" alt="proyecto web">
+				<h3>Frontend</h3>
+			</div>
+			<div class="projects-card img-certificates">
+				<img src="img/certificado3.jpg" alt="proyecto web">
+				<h3>Marketing</h3>
+			</div>
+			<div class="projects-card img-certificates">
+				<img src="img/certificado4.jpg" alt="proyecto web">
+				<h3>Backend</h3>
+			</div>
+			<div class="projects-card img-certificates">
+				<img src="img/certificado5.jpg" alt="proyecto web">
+				<h3>Fronted</h3>
+			</div>
+			<div class="projects-card img-certificates">
+				<img src="img/certificado6.jpg" alt="proyecto web">
+				<h3>Fronted</h3>
+			</div>
+			<div class="projects-card img-certificates">
+				<img src="img/certificado7.jpg" alt="proyecto web">
+				<h3>Fronted</h3>
+			</div>
+			<div class="projects-card img-certificates">
+				<img src="img/certificado8.jpg" alt="proyecto web">
+				<h3>Backend</h3>
+			</div>
+		</div>
+	</section>
+
+	<!-- Modal -->
+	<div id="myModal" class="modal">
+	  	<span class="close">&times;</span>
+	  		<img class="modal-content" id="modalImg" alt="Modal Image">
+	  	<div id="caption"></div>
+	</div>
+
+
+	<footer class="footer">
+		<div class="social-icons">
+			<a href="https://www.linkedin.com/in/daniel-enriquez-36203a2a8?" target="_blanck"><i class="fa-brands fa-linkedin"></i></a>
+			<a href="https://github.com/10038-rdenriquez2" target="_blanck"><i class="fa-brands fa-square-github"></i></a>
+			<a href="https://wa.me/+593980031871" target="_blanck"><i class="fa-brands fa-square-whatsapp"></i></a>
+			<a href="https://www.instagram.com/elco_gelindo/" target="_blanck"><i class="fa-brands fa-square-instagram"></i></a>
+		</div>
+
+		<h2>Imagina, analiza, programa 😉✌</h2>
+	</footer>
+
+
+	<script src="js/index.js"></script>
+	<script src="librerias/fo.js"></script>
+</body>
+</html>
