@@ -1,0 +1,19 @@
+<header class="header">
+    <a href="#home" class="logo">
+        Daniel <span>Enriquez</span>
+    </a>
+
+  <i *ngIf="!menuActive" class="bx bx-menu" id="menu-icon" (click)="toggleMenu()"></i>
+  <i *ngIf="menuActive" class="bx bx-x" id="menu-icon" (click)="toggleMenu()"></i>
+
+    <nav class="navbar" [class.active]="menuActive">
+        <a href="#home">Inicio</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#certificates">Certificados</a>
+    </nav>
+
+    <button class="gradient-btn" (click)="redirectToEmail()">Contáctame</button>
+
+</header>

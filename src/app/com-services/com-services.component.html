@@ -1,0 +1,43 @@
+<section class="services" id="skills">
+    <h2 class="heading">HABILIDADES</h2>
+    <div class="service-container">
+        @for (service of servicesList; track service){
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="{{service.icono}}"></i>
+                    <h4>{{service.titulo}}</h4>
+                </div>
+            </div>
+        }  
+    </div>
+</section>
+
+<div class="services">
+    <h2 class="heading">HABILIDADES EXTRA</h2>
+    <div class="service-container">
+        <div class="service-box">
+        <div class="service-info">
+            <i class='iconos bx bxs-edit'></i>
+            <h4 class="extra_skills">Ortografía</h4>
+        </div>
+    </div>
+    <div class="service-box">
+        <div class="service-info">
+            <i class="iconos fa-solid fa-language"></i>
+            <h4 class="extra_skills">Inglés B2</h4>
+        </div>
+    </div>
+    <div class="service-box">
+        <div class="service-info">
+            <i class='iconos bx bxs-magic-wand'></i>
+            <h4 class="extra_skills">Edición de imágenes/videos</h4>
+        </div>
+    </div>
+    <div class="service-box">
+        <div class="service-info">
+            <i class='iconos bx bxs-message-dots'></i>
+            <h4 class="extra_skills">Sociabilidad</h4>
+        </div>
+    </div>
+</div>
+
